@@ -1,0 +1,56 @@
+{
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "port": 19277,
+      "listen": null,
+      "protocol": "vmess",
+      "sniffing": null,
+      "settings": {
+        "auth": null,
+        "udp": false,
+        "ip": null,
+        "clients": [
+          {
+            "id": "258b3559-7e8f-40af-8e4b-47d1e1c2645a",
+            "alterId": 10,
+            "email": "t@t.tt",
+            "security": null
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "kcp",
+        "security": "",
+        "tlsSettings": null,
+        "tcpSettings": null,
+        "kcpSettings": {
+          "mtu": 1350,
+          "tti": 50,
+          "uplinkCapacity": 100,
+          "downlinkCapacity": 100,
+          "congestion": false,
+          "readBufferSize": 2,
+          "writeBufferSize": 2,
+          "header": {
+            "type": "none",
+            "request": null,
+            "response": null
+          }
+        },
+        "wsSettings": null,
+        "httpSettings": null
+      }
+    }
+  ],
+  "outbounds": null,
+  "dns": null,
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": []
+  }
+}
